@@ -17,11 +17,11 @@ body {
 .container {
     max-width: 1200px;
     width: 90%;
-    margin: 0; /* Remove auto margins to prevent centering */
+    margin: 0;
     padding: 0 20px;
     flex-grow: 1;
-    margin-top: 20px; /* Adjust the top margin for spacing between navbar */
-    margin-left: 0; /* Align the content to the left */
+    margin-top: 20px;
+    margin-left: 0; 
 }
 .header {
     border-bottom: 1px solid #eee;
@@ -40,15 +40,15 @@ body {
     font-size: 20px;
     color: #333;
     text-decoration: none;
-    margin-right: 20px; /* Add space between logo and home link */
+    margin-right: 20px; 
 }
 
 .nav-menu {
     display: flex;
     gap: 25px;
     align-items: center;
-    justify-content: flex-start; /* Align nav items to the left */
-    width: 100%; /* Ensure it takes the full width */
+    justify-content: flex-start; 
+    width: 100%; 
 }
 
 .nav-link {
@@ -85,13 +85,13 @@ body {
     align-items: center;
     gap: 8px;
     margin-left: auto;
-    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    transition: all 0.3s ease; 
 }
 
 .submit-button:hover {
-    background-color: #5E35B1; /* Change background on hover */
-    color: white; /* Change text color on hover */
-    border-color: #5E35B1; /* Optional: Keep border color same */
+    background-color: #5E35B1; 
+    color: white; 
+    border-color: #5E35B1; 
 }
 .user-avatar {
     width: 24px;
@@ -109,7 +109,7 @@ body {
     color: #333;
     font-size: 24px;
     margin-bottom: 20px;
-    margin-top: 20px; /* Space at the top of the page title */
+    margin-top: 20px; 
     text-align:left;
 }
 .tabs {
@@ -256,7 +256,6 @@ body {
     }
 }
 
-/* Tablet Styles (above 480px but below 768px) */
 @media (max-width: 1024px) {
     .nav-link {
         font-size: 13px;
